@@ -12,8 +12,6 @@ import javax.validation.Payload;
 @Target( { ElementType.METHOD, ElementType.FIELD} )
 @Retention(RetentionPolicy.RUNTIME)
 public @interface CourseCode {
-	
-	// Add comment for dhulap branch
 	public String value() default "LUV";
 	// define default error message
 	public String message() default "must start with LUV";
