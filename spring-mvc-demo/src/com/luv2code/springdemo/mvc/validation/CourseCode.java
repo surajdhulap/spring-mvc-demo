@@ -13,7 +13,7 @@ import javax.validation.Payload;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface CourseCode {
 
-	// Add comment for suraj branch
+	// Add comment for surajdhulap branch
 	public String value() default "LUV";
 	// define default error message
 	public String message() default "must start with LUV";
