@@ -13,13 +13,10 @@ import javax.validation.Payload;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface CourseCode {
 
-<<<<<<< HEAD
+
 	// Adding comment for test56
 	// Adding changes using git bash
-=======
-	// Adding comment for test
-	// Adding comment for learnpushchild
->>>>>>> 4579f2c5bc0697279f20ed4a8d4ce25b27cf8c19
+
 	
 	//define default course code
 	public String value() default "LUV";
