@@ -14,7 +14,6 @@ import javax.validation.Payload;
 public @interface CourseCode {
 	// Add comment for suraj branch
 	// Add comment for sdhulap branch
-
 	public String value() default "LUV";
 	// define default error message
 	public String message() default "must start with LUV";
