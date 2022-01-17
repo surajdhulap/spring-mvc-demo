@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/customer")
 public class CustomerController {
 
+	// Adding change
 	// Remove leading and trailing white space
 	@InitBinder
 	public void initBinder(WebDataBinder dataBinder) {
