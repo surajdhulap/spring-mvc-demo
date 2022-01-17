@@ -25,6 +25,7 @@ public class CustomerController {
 	}
 	@RequestMapping("/showForm")
 	public String showForm(Model theModel) {
+		// Adding comment for dsuraj
 		theModel.addAttribute("customer", new Customer());
 		return "customer-form";
 	}
