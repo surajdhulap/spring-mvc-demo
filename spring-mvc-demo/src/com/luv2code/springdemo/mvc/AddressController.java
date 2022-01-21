@@ -11,7 +11,7 @@ public class AddressController {
 
 	@RequestMapping("/studentAddress")
 	public String getAddress(Model theModel) {
-		// checkout suraj branch
+		
 		StudentAddress address = new StudentAddress();
 		theModel.addAttribute("address", address);
 		return "address";
