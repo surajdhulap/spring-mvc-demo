@@ -33,6 +33,9 @@ public class CustomerController {
 	@RequestMapping("/processForm")
 	public String processForm(@Valid @ModelAttribute("customer")Customer customer, BindingResult theBindingResult) {
 		if(theBindingResult.hasErrors()) {
+			
+			// Add test comment for dhulap branch
+			
 			System.out.println("LastName |"+ customer.getLastName() +"|");
 			System.out.println("Binding Result:" +theBindingResult);
 			System.out.println("\n\n\n\n");
